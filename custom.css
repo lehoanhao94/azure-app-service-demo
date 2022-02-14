@@ -1,0 +1,111 @@
+.free-dial {
+    min-height: 100%;
+    padding-bottom: 10px;
+}
+
+.close-btn {
+    display: none;
+}
+
+.expand-btn {
+    display: none;
+}
+
+.sfno {
+    letter-spacing: 5px;
+    color: #5bc2dc;
+}
+
+.phonenumber {
+    color: #5bc2dc;
+    text-decoration: none;
+}
+
+#debug_info {
+    display: none;
+}
+
+.navbar-header {
+    float: left;
+    padding: 4px;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-custom {
+    background-color: #323233;
+    color: #ADADAD;
+}
+
+.main-page {
+    /* background-color: #79B7B9; */
+    background-color: #5bc2dc;
+    color: #ADADAD;
+}
+
+.card {
+    /* box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.top-title {
+    position: absolute;
+    background-color: white;
+    /* background-color: #ddf6fd; */
+    top: 0px;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+    color: #5bc2dc;
+    font-size: 1.3rem;
+    font-weight: 450;
+}
+
+header {
+    display: flex;
+    color: white;
+}
+
+header:before,
+header:after {
+    content: '';
+    margin: auto 1em;
+    border-bottom: solid 1px;
+    flex: 1;
+}
+
+h6 {
+    position: relative;
+    padding: 0.25em 1em;
+    overflow: hidden;
+    background: linear-gradient(currentcolor, currentcolor) no-repeat top center, linear-gradient(currentcolor, currentcolor) no-repeat bottom center;
+    background-size: calc(100% - 1.65em) 1px;
+}
+
+h6:before,
+h6:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: solid 1px;
+    border-top: none;
+    border-bottom: none;
+    transform: skew(45deg)
+}
+
+h6:after {
+    transform: skew(-45deg)
+}
+
+#maintenance-message {
+    color: rgb(231, 231, 231);
+    white-space: pre-line;
+    font-size: x-large;
+}
+
+.maintenance {
+    color: #d53d3d;
+}
